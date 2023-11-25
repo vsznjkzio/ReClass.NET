@@ -28,6 +28,10 @@ namespace ReClassNET.CodeGenerator
 			[typeof(UInt32Node)] = "uint",
 			[typeof(UInt64Node)] = "ulong",
 			[typeof(NUIntNode)] = "UIntPtr",
+			[typeof(Matrix3x3Node)] = "Matrix3x3",
+			[typeof(Matrix3x4Node)] = "Matrix3x4",
+			[typeof(Matrix4x4Node)] = "Matrix4x4",
+			[typeof(Utf8TextNode)] = "string",
 
 			[typeof(FunctionPtrNode)] = "IntPtr",
 			[typeof(Utf8TextPtrNode)] = "IntPtr",
